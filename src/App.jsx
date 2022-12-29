@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import Sidebar from './Components/Side/Sidebar'
-import Body from './Components/Body/'
+import Body from './Components/Body/Body'
 
 
 function App() {
