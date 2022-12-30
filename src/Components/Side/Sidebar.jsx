@@ -7,7 +7,7 @@ import logo2 from '../../assets/logo2.png'
 
 import {IoMdSpeedometer} from "react-icons/io";
 import {MdDeliveryDining, MdOutlineExplore, MdOutlinePermContactCalendar} from "react-icons/md";
-import {BsCreditCard2Front, BsTrophy} from "react-icons/bs";
+import {BsCreditCard2Front, BsQuestionCircle, BsTrophy} from "react-icons/bs";
 import {AiOutlinePieChart} from "react-icons/ai";
 import {BiTrendingUp} from "react-icons/bi";
 
@@ -114,6 +114,19 @@ function Sidebar() {
 
                 </ul>
             </div>
+
+            <div className="sideBarCard">
+                <BsQuestionCircle className="icon" />
+                <div className="cardContent">
+                    <div className="circle1"></div>
+                    <div className="circle2"></div>
+
+                    <h3>Help Center</h3>
+                    <p>Having trouble with Buddy please contact us for more questions</p>
+                    <button className="btn">Go to help center</button>
+                </div>
+            </div>
+
 
 
         </div>

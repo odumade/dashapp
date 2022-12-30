@@ -47,6 +47,7 @@ li {
 
 .icon {
     font-size: var(--h2FontSize);
+    cursor: pointer;
 }
 
 img {
@@ -105,6 +106,10 @@ body {
     box-shadow: 2px 2px 8px var(--greyText);
 }
 
+/* Hide the scroll thumb */
+::-webkit-scrollbar {
+    display: none;
+}
 
 
 
